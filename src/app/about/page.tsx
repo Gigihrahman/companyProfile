@@ -1,8 +1,6 @@
 import OurCulture from "@/app/about/Culture";
-import Culture from "@/app/about/Culture";
 import History from "@/app/about/History";
 import Jumbotron from "@/components/Jumbotron";
-import React from "react";
 
 const AboutPage = () => {
   return (

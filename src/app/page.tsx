@@ -1,11 +1,8 @@
-import Cek from "@/app/_components/Cek";
 import Menu from "@/app/_components/Menu";
 import Overview from "@/app/_components/Overview";
 import ProductHome from "@/app/_components/ProductHome";
 import Testimonials from "@/app/_components/Testimonial";
 import Jumbotron from "@/components/Jumbotron";
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
 
 export default function Home() {
   return (

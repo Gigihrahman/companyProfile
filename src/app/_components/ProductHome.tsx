@@ -19,19 +19,19 @@ const ProductHome = () => {
         <CardProduct
           title="Alpha"
           imageSrc="/product/alpha.png"
-          price={5000}
+          price={300_000}
           description="A bold, commanding fragrance that opens with crisp bergamot and black pepper, evolving into a heart of cedarwood and leather. The base notes of amber and vetiver leave a lasting impression of quiet confidence."
         />
         <CardProduct
           title="Darker Shade"
           imageSrc="/product/darker.png"
-          price={5000}
+          price={250000}
           description="An intoxicating blend that begins with mysterious blackcurrant and violet leaf, deepening into a complex heart of dark rose and incense. Settles into a seductive base of patchouli, vanilla, and musk."
         />
         <CardProduct
           title="Essence OF Sun"
           imageSrc="/product/eos.jpg"
-          price={5000}
+          price={150000}
           description="Captures the golden warmth of summer with vibrant notes of Sicilian lemon and orange blossom. The luminous heart reveals jasmine and ylang-ylang while the base of sandalwood and ambergris creates a radiant glow."
         />
       </div>

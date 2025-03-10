@@ -28,7 +28,12 @@ const CardProduct: FC<CardProductProp> = ({
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
       <h3 className="font-bold text-xl mb-2">{title}</h3>
       <p className="text-gray-600 mb-4">{description}</p>
-      <span className="text-lg font-semibold text-gray-900">{price}</span>
+      <span className="text-lg font-semibold text-gray-900">
+        {new Intl.NumberFormat("id-ID", {
+          style: "currency",
+          currency: "IDR",
+        }).format(price)}
+      </span>
     </div>
   );
 };
