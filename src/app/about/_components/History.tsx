@@ -1,4 +1,4 @@
-import CardHistory from "@/app/about/CardHistory";
+import CardHistory from "@/app/about/_components/CardHistory";
 import React from "react";
 
 const History = () => {

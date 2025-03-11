@@ -1,5 +1,5 @@
-import OurCulture from "@/app/about/Culture";
-import History from "@/app/about/History";
+import OurCulture from "@/app/about/_components/Culture";
+import History from "@/app/about/_components/History";
 import Jumbotron from "@/components/Jumbotron";
 import type { Metadata } from "next";
 export const metadata: Metadata = {
