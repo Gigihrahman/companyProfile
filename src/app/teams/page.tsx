@@ -1,12 +1,8 @@
 "use client";
 
 import CardMember from "@/components/CardMember";
-import type { Metadata } from "next";
+
 import React, { useState, useEffect } from "react";
-export const metadata: Metadata = {
-  title: "Team Page Ngado Kado",
-  description: "Beberapa pegawai serta pemilik toko",
-};
 
 // Define interfaces for the API response
 interface RandomUserName {
