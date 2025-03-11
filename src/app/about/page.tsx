@@ -1,7 +1,11 @@
 import OurCulture from "@/app/about/Culture";
 import History from "@/app/about/History";
 import Jumbotron from "@/components/Jumbotron";
-
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "About Page Ngado Kado",
+  description: "kami beroperasi sampai jam 3 sore dan kami berada di Jogja",
+};
 const AboutPage = () => {
   return (
     <div className="bg-slate-50">

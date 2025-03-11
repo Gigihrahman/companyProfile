@@ -1,6 +1,11 @@
 import CardProduct from "@/components/CardProduct";
 import Jumbotron from "@/components/Jumbotron";
-
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Produk Ngado Kado",
+  description:
+    "Perfume Local Brand Indonesia, kami memiliki produk dari HMNS yang berupa Eos, Alpha, Farhampton,Darker Shade,Perfection dan Untitled verse 1",
+};
 const ProductPage = () => {
   return (
     <div>
