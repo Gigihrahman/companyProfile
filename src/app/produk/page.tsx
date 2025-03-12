@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 const ProductPage = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <Jumbotron
         link="/banner/productbanner.png"
         title="Product page"

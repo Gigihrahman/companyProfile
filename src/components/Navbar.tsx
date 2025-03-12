@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#FEFBF0] text-[#333333] border-b-2 border-[#990000]">
-      <div className="max-w-screen-xl flex justify-between items-center mx-auto p-4">
+    <nav className="bg-[#FEFBF0] h-16 text-[#333333] border-b-2 border-[#990000]">
+      <div className="max-w-screen-xl flex justify-between items-center mx-auto ">
         {/* Left section: Icon */}
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/Logo.png" className="h-16" alt="Ngado Kado Logo" />

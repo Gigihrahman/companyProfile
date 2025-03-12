@@ -6,7 +6,7 @@ import Jumbotron from "@/components/Jumbotron";
 
 export default function Home() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 container mx-auto">
       <Jumbotron
         link="/banner/homebanner.png"
         title="Home Page"

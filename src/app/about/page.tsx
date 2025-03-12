@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 const AboutPage = () => {
   return (
-    <div className="bg-slate-50">
+    <div className="bg-slate-50 container mx-auto">
       <Jumbotron
         link="/banner/aboutbanner.png"
         title="About Page"
